@@ -103,7 +103,7 @@
                         timer: 1500
                     }).then(() => {
                         // Lempar ke halaman dashboard frontend
-                        window.location.href = '/dashboard';
+                        window.location.href = '/jenis-mesin';
                     });
 
                 } else {
