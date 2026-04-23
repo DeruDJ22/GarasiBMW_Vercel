@@ -25,6 +25,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
+        "APP_KEY": "base64:NebGYpsJ7wPS/ZaaEB9tCJ8m1q6ThJDfHuRRUOO5PkQ=",
         "APP_URL": "https://garasi-bmw-vercel.vercel.app",
  
         "APP_CONFIG_CACHE": "/tmp/config.php",
