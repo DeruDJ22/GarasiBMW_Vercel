@@ -10,11 +10,8 @@
             "dest": "/public/css/"
         },
         {
-            "src": "/login-image/(.*)",
-            "dest": "/public/assets/login-assets"
-        },{
-            "src": "/login-logo/(.*)",
-            "dest": "/public/assets/login-assets"
+          "src": "/assets/(.*)",
+          "dest": "/public/assets/$1"
         },
         {
             "src": "/js/(.*)",
