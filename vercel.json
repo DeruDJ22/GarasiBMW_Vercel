@@ -6,24 +6,19 @@
     },
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/public/build/"
-        },
-        {
             "src": "/css/(.*)",
             "dest": "/public/css/"
         },
         {
-            "src": "/login-assets/(.*)",
+            "src": "/login-image/(.*)",
+            "dest": "/public/assets/login-assets"
+        },{
+            "src": "/login-logo/(.*)",
             "dest": "/public/assets/login-assets"
         },
         {
             "src": "/js/(.*)",
             "dest": "/public/js/"
-        },
-        {
-            "src": "/vendors/(.*)",
-            "dest": "/public/vendors/"
         },
         {
             "src": "/(.*)",
