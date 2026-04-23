@@ -10,8 +10,11 @@
             "dest": "/public/css/"
         },
         {
-            "src": "/assets/(.*)",
-            "dest": "/public/assets/$1"
+            "src": "/login-image/(.*)",
+            "dest": "/public/assets/login-assets"
+        },{
+            "src": "/login-logo/(.*)",
+            "dest": "/public/assets/login-assets"
         },
         {
             "src": "/js/(.*)",
@@ -25,8 +28,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_KEY": "base64:NebGYpsJ7wPS/ZaaEB9tCJ8m1q6ThJDfHuRRUOO5PkQ=",
-        "APP_URL": "https://garasi-bmw-vercel.vercel.app",
+        "APP_URL": "",
  
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
